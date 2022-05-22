@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.container {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+}
+
+div.container > div.item > div{
+  border: solid;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+div.container > div.item > div > p{
+  border: solid;
+  width: 25%;
+  flex-shrink: 0;
+}
